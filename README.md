@@ -2,7 +2,7 @@
 
 
 
-Overview
+#### **Overview**
 
 
 
@@ -10,63 +10,43 @@ An object detection system built using YOLOv2 to detect people in images and vid
 
 
 
-Key Features
+#### **Key Features**
 
 
 
-Person detection and bounding box localization
+* Person detection and bounding box localization
+* Distance approximation between detected individuals
+* Visual safety alerts for distance violations
+* Modular and extensible design
 
 
 
-Distance approximation between detected individuals
+#### **Tech Stack**
 
 
 
-Visual safety alerts for distance violations
+* Language: MATLAB
+* Framework: Deep Learning Toolbox
+* Model: YOLOv2 with Darknet-53 backbone
+* Domain: Computer Vision, Object Detection
 
 
 
-Modular and extensible design
+#### **Dataset**
 
 
 
-Tech Stack
+* ~800+ annotated pedestrian images
+* Combination of CCTV video frames and public datasets
+* Ground truth labeling using MATLAB Image Labeler
 
 
 
-Language: MATLAB
 
 
-
-Framework: Deep Learning Toolbox
-
+#### **Model Architecture**
 
 
-Model: YOLOv2 with Darknet-53 backbone
-
-
-
-Domain: Computer Vision, Object Detection
-
-
-
-Dataset
-
-
-
-~800+ annotated pedestrian images
-
-
-
-Combination of CCTV video frames and public datasets
-
-
-
-Ground truth labeling using MATLAB Image Labeler
-
-
-
-Model Architecture
 
 
 
@@ -106,65 +86,46 @@ Epochs: 25 (two-stage training)
 
 
 
-Results
+#### **Results**
 
 
 
-Achieved strong baseline detection performance
+* Achieved strong baseline detection performance
+* Reliable person localization across varied scenes
+* Identified performance gains possible with newer YOLO variants
 
 
 
-Reliable person localization across varied scenes
+#### **Limitations**
 
 
 
-Identified performance gains possible with newer YOLO variants
+* **Distance estimation is approximate (2D projection)**
+* **Limited training epochs due to hardware constraints**
+* **Not calibrated for real-world metric accuracy**
 
 
 
-Limitations
+#### **Future Work**
 
 
 
-Distance estimation is approximate (2D projection)
+* Migrate to YOLOv3/YOLOv5/YOLOv8
+* Improve distance estimation via camera calibration
+* Optimize for real-time deployment
+* Expand dataset for improved generalization
 
 
 
-Limited training epochs due to hardware constraints
-
-
-
-Not calibrated for real-world metric accuracy
-
-
-
-Future Work
-
-
-
-Migrate to YOLOv3/YOLOv5/YOLOv8
-
-
-
-Improve distance estimation via camera calibration
-
-
-
-Optimize for real-time deployment
-
-
-
-Expand dataset for improved generalization
-
-
-
-Project Status
+* #### Project Status
 
 
 
 ✅ Completed — Baseline implementation
 
 🔧 Open for enhancements and upgrades
+
+
 
 
 
