@@ -20,7 +20,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 * Modular and extensible design
 
 #### **Workflow**
-![Password Lock Output](Images\workflow.png)
+![Password Lock Output](Images\Workflow.png)
 
 #### **Tech Stack**
 
