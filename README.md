@@ -19,7 +19,8 @@ An object detection system built using YOLOv2 to detect people in images and vid
 * Visual safety alerts for distance violations
 * Modular and extensible design
 
-
+#### **Workflow**
+![Password Lock Output](Images\workflow.png)
 
 #### **Tech Stack**
 
