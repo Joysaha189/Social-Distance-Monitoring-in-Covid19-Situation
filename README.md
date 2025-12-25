@@ -100,9 +100,9 @@ Epochs: 25 (two-stage training)
 
 
 
-* **Distance estimation is approximate (2D projection)**
-* **Limited training epochs due to hardware constraints**
-* **Not calibrated for real-world metric accuracy**
+* Distance estimation is approximate (2D projection)
+* Limited training epochs due to hardware constraints
+* Not calibrated for real-world metric accuracy
 
 
 
@@ -117,7 +117,7 @@ Epochs: 25 (two-stage training)
 
 
 
-* #### Project Status
+#### Project Status
 
 
 
@@ -129,7 +129,7 @@ Epochs: 25 (two-stage training)
 
 
 
-License
+#### **License**
 
 
 
