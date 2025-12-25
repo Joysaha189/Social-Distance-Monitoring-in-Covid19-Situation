@@ -20,7 +20,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 * Modular and extensible design
 
 #### **Workflow**
-![Password Lock Output](Images/Workflow.png)
+![workflow](Images/Workflow.png)
 
 #### **Tech Stack**
 
@@ -95,7 +95,7 @@ Epochs: 25 (two-stage training)
 * Reliable person localization across varied scenes
 * Identified performance gains possible with newer YOLO variants
 
-![Password Lock Output](Images\Results.png)
+![results](Images\Results.png)
 
 #### **Limitations**
 
