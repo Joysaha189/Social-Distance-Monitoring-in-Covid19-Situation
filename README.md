@@ -95,7 +95,7 @@ Epochs: 25 (two-stage training)
 * Reliable person localization across varied scenes
 * Identified performance gains possible with newer YOLO variants
 
-
+![Password Lock Output](Images\Results.png)
 
 #### **Limitations**
 
