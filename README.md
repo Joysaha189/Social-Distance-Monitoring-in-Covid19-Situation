@@ -2,7 +2,7 @@
 
 
 
-#### **Overview**
+###### **Overview**
 
 
 
@@ -10,7 +10,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 
 
 
-#### **Key Features**
+###### **Key Features**
 
 
 
@@ -22,7 +22,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 #### **Workflow**
 ![workflow](Images/Workflow.png)
 
-#### **Tech Stack**
+###### **Tech Stack**
 
 
 
@@ -33,7 +33,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 
 
 
-#### **Dataset**
+###### **Dataset**
 
 
 
@@ -45,7 +45,7 @@ An object detection system built using YOLOv2 to detect people in images and vid
 
 
 
-#### **Model Architecture**
+###### **Model Architecture**
 
 
 
@@ -87,7 +87,7 @@ Epochs: 25 (two-stage training)
 
 
 
-#### **Results**
+###### **Results**
 
 
 
@@ -97,7 +97,7 @@ Epochs: 25 (two-stage training)
 
 ![results](Images/Results.png)
 
-#### **Limitations**
+###### **Limitations**
 
 
 
@@ -107,7 +107,7 @@ Epochs: 25 (two-stage training)
 
 
 
-#### **Future Work**
+###### **Future Work**
 
 
 
@@ -118,7 +118,7 @@ Epochs: 25 (two-stage training)
 
 
 
-#### Project Status
+###### Project Status
 
 
 
@@ -126,14 +126,14 @@ Epochs: 25 (two-stage training)
 
 🔧 Open for enhancements and upgrades
 
-#### **Contributors**
+###### **Contributors**
 
 Nahid Ahmed (1706145), Sanath kumar Das (1706149), Md. Rokonujjaman (1706150), Ishmam Hasnat Iram (1706153), Joy Saha (1706189) 
 Department of Electrical \& Electronic Engineering, Bangladesh University of Engineering and Technology (BUET)
 
 
 
-#### **License**
+###### **License**
 
 
 
