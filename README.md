@@ -128,7 +128,7 @@ Epochs: 25 (two-stage training)
 
 ###### **Contributors**
 
-Nahid Ahmed (1706145), Sanath kumar Das (1706149), Md. Rokonujjaman (1706150), Ishmam Hasnat Iram (1706153), Joy Saha (1706189) 
+Nahid Ahmed (1706145), Sanath kumar Das (1706149), Md. Rokonujjaman (1706150), Ishmam Hasnat Iram (1706153), **Joy Saha (1706189)** 
 Department of Electrical \& Electronic Engineering, Bangladesh University of Engineering and Technology (BUET)
 
 
