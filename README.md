@@ -1,141 +1,107 @@
-# Social-Distance-Monitoring-in-Covid19-Situation
+# Social Distance Monitoring in COVID-19 Situation
 
+## Overview
 
+This project presents a **deep learning–based social distance monitoring system** using **YOLOv2** to detect people in images and videos and estimate interpersonal distances. The work demonstrates a practical application of object detection techniques for monitoring social distancing compliance in real-world environments.
 
-###### **Overview**
+---
 
+## Key Features
 
+- Person detection and bounding box localization  
+- Approximate distance estimation between detected individuals  
+- Visual safety alerts for distance violations  
+- Modular and extensible system design  
 
-An object detection system built using YOLOv2 to detect people in images and videos and estimate interpersonal distances for social distancing monitoring. The project demonstrates practical application of deep learning–based object detection for real-world scenarios.
+---
 
+## Workflow
 
-
-###### **Key Features**
-
-
-
-* Person detection and bounding box localization
-* Distance approximation between detected individuals
-* Visual safety alerts for distance violations
-* Modular and extensible design
-
-#### **Workflow**
 ![workflow](Images/Workflow.png)
 
-###### **Tech Stack**
+---
 
+## Tech Stack
 
+- **Programming Language:** MATLAB  
+- **Framework:** Deep Learning Toolbox  
+- **Model:** YOLOv2 with Darknet-53 backbone  
+- **Domain:** Computer Vision, Object Detection  
 
-* Language: MATLAB
-* Framework: Deep Learning Toolbox
-* Model: YOLOv2 with Darknet-53 backbone
-* Domain: Computer Vision, Object Detection
+---
 
+## Dataset
 
+- Approximately **800+ annotated pedestrian images**  
+- Combination of CCTV video frames and public datasets  
+- Ground truth annotation using **MATLAB Image Labeler**
 
-###### **Dataset**
+---
 
+## Model Architecture
 
+- **Input Size:** 256 × 256 × 3  
+- **Backbone Network:** Darknet-53  
+- **Detection Head:** YOLOv2  
+- **Classes:** Person  
 
-* ~800+ annotated pedestrian images
-* Combination of CCTV video frames and public datasets
-* Ground truth labeling using MATLAB Image Labeler
+### Training Configuration
 
+- **Optimizer:** Adam  
+- **Learning Rate:** 1e-4  
+- **Batch Size:** 16  
+- **Epochs:** 25 (two-stage training)
 
+---
 
+## Results
 
-
-###### **Model Architecture**
-
-
-
-
-
-Input: 256 × 256 × 3
-
-
-
-Backbone: Darknet-53
-
-
-
-Detection Head: YOLOv2
-
-
-
-Classes: Person
-
-
-
-Training Configuration
-
-
-
-Optimizer: Adam
-
-
-
-Learning Rate: 1e-4
-
-
-
-Batch Size: 16
-
-
-
-Epochs: 25 (two-stage training)
-
-
-
-###### **Results**
-
-
-
-* Achieved strong baseline detection performance
-* Reliable person localization across varied scenes
-* Identified performance gains possible with newer YOLO variants
+- Strong baseline detection performance achieved  
+- Reliable person localization across diverse scenes  
+- Identified scope for improved performance using newer YOLO variants  
 
 ![results](Images/Results.png)
 
-###### **Limitations**
+---
 
+## Limitations
 
+- Distance estimation is approximate due to 2D projection  
+- Limited training epochs caused by hardware constraints  
+- Not calibrated for real-world metric distance accuracy  
 
-* Distance estimation is approximate (2D projection)
-* Limited training epochs due to hardware constraints
-* Not calibrated for real-world metric accuracy
+---
 
+## Future Work
 
+- Migration to YOLOv3 / YOLOv5 / YOLOv8  
+- Improved distance estimation using camera calibration  
+- Optimization for real-time deployment  
+- Dataset expansion for better generalization  
 
-###### **Future Work**
+---
 
+## Project Status
 
+✅ **Completed** — Baseline implementation  
 
-* Migrate to YOLOv3/YOLOv5/YOLOv8
-* Improve distance estimation via camera calibration
-* Optimize for real-time deployment
-* Expand dataset for improved generalization
+🔧 **Open for enhancements and upgrades**
 
+---
 
+## Contributors
 
-###### Project Status
+- Nahid Ahmed (1706145)  
+- Sanath Kumar Das (1706149)  
+- Md. Rokonujjaman (1706150)  
+- Ishmam Hasnat Iram (1706153)  
+- **Joy Saha (1706189)**  
 
+Department of Electrical & Electronic Engineering  
+Bangladesh University of Engineering and Technology (BUET)
 
+---
 
-✅ Completed — Baseline implementation
+## License
 
-🔧 Open for enhancements and upgrades
-
-###### **Contributors**
-
-Nahid Ahmed (1706145), Sanath kumar Das (1706149), Md. Rokonujjaman (1706150), Ishmam Hasnat Iram (1706153), **Joy Saha (1706189)** 
-Department of Electrical \& Electronic Engineering, Bangladesh University of Engineering and Technology (BUET)
-
-
-
-###### **License**
-
-
-
-This project is for academic and educational purposes.
-
+This project is for **academic and educational purposes only**.
